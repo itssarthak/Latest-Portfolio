@@ -79,7 +79,7 @@ nav li a:hover
 {
 	border-radius: 10px;
 	height:350px;
-	background-image: url("cover.jpg");
+	background-image: url("https://github.com/itssarthak/itssarthak.github.io/blob/master/cover.jpg");
 	background-size: 1400px 350px;
 	background-repeat: no-repeat;
 	position: relative;
@@ -87,7 +87,7 @@ nav li a:hover
 }
 #inside
 {
-	background-image: url("p.jpg");
+	background-image: url("https://github.com/itssarthak/itssarthak.github.io/blob/master/p.JPG");
 	background-size: 200px 200px;
 	width:200px;
 	height:200px;
