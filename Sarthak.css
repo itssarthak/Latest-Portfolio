@@ -72,7 +72,7 @@ nav li a:hover
 {
 	margin: 0;
 	padding:0;
-	border-radius: 10px;
+	border-radius: 20px;
 	background:#b0dfe5;
 }
 #cover
@@ -80,10 +80,10 @@ nav li a:hover
 	border-radius: 10px;
 	height:350px;
 	background-image: url("cover.jpg");
-	background-size: 1400px 350px;
+	background-size: 2300px 350px;
 	position: relative;
-	width: 100%;
-	margin:0px;
+	margin:10px;
+	margin-top: 0px;
 }
 #inside
 {
@@ -111,12 +111,12 @@ nav li a:hover
 #About
 {
 	border-radius: 10px;
-	margin:0px;
+	margin:10px;
 	background: #4682B4;
 }
 #About p
 {
-	padding:40px;
+	padding:120px;
 	padding-top:0px;
 	font-family: Verdana;
 	color: ;
@@ -131,24 +131,25 @@ nav li a:hover
 	font-family: Segoe UI;
 	color: #d2d2d2;
 	font-size: 60px;
-	text-align: center
+	text-align: center;
+	padding:30px;
 }
 
 #Services
 {
 	border-radius: 10px;
 	background:#73c2fb;
-	margin:0px;
+	margin:10px;
 }
 
 #Services p
 {	
-	padding:40px;
+	padding:120px;
 	padding-top:0px;
 	font-family: Verdana;
 	color:#373d3f ;
 	font-size: 25px;
-	line-height:40px;
+	line-height:50px;
 	margin:0px;
 }
 #Services h1
@@ -163,7 +164,9 @@ nav li a:hover
 #MyWork
 {
 	background:#1c2833;
-	padding:20px; 
+	padding:40px; 
+	border-radius: 10px;
+	margin: 10px;
 }
 #MyWork h1
 {
@@ -174,6 +177,10 @@ nav li a:hover
 	font-size: 60px;
 	text-align: center;
 }
+#MyWork img
+{
+	border-radius: 10px;
+}
 #Contact h1
 {
 	margin:0px;
@@ -182,12 +189,13 @@ nav li a:hover
 	color: #d2d2d2;
 	font-size: 60px;
 	text-align: center;
+	padding: 30px;
 }
 
 #Contact
 {
 	border-radius: 10px;
-	margin:0px;
+	margin:10px;
 	background: #34495e;
 }
 
@@ -203,7 +211,7 @@ nav li a:hover
 	font-family: Segoe UI;
 	margin:0px;
 	margin-bottom:30px;
-	padding-left:100px;
+	padding-left:200px;
 	font-size: 35px;
 	color: #b8b8b8;
 	font-weight: lighter;
@@ -224,7 +232,7 @@ label
 	font-family: Segoe UI;
     color: #dadedf;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
     font-weight: normal;
 }
 input[type=text]
@@ -252,13 +260,15 @@ input[type=submit]
 footer
 {
 	border-radius: 10px;
-	margin:0px;
+	margin:10px;
 	background:;
 	font-weight: lighter;
 	font-family: Segoe UI;
 	color: #474747;
 	font-size: 40px;
-	text-align: center
+	text-align: center;
+	padding:20px;
+	padding-bottom: 30px;
 }
 footer p
 {
@@ -266,7 +276,7 @@ footer p
 }
 #cdetails
 {
-	margin-left:100px;
+	margin-left:200px;
 	float: left;
 }
 #social
@@ -278,8 +288,9 @@ footer p
 }
 h4
 {
+	margin-top: 0px;
 	float:right;
-	padding-right: 150px;
+	padding-right: 200px;
 	font-family: Segoe UI;
     color: #dadedf;
     font-size: 20px;
@@ -295,7 +306,7 @@ h4
 	padding-left: 30px;
 	margin-bottom: 10px;
 	margin-left: 10px;
-	padding:5px 20px;
+	padding:5px 18px;
 	padding-left: 35px;
 	font-family: Segoe UI;
 	color:#e9ebee;
@@ -327,7 +338,7 @@ h4
 	padding-left: 30px;
 	padding-right: 22px;
 	margin-left: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	padding:5px 36px;
 	padding-left: 34px;
 	color:#e9ebee;
