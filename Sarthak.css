@@ -73,21 +73,22 @@ nav li a:hover
 	margin: 0;
 	padding:0;
 	border-radius: 10px;
-	background:;
+	background:#b0dfe5;
 }
 #cover
 {
 	border-radius: 10px;
 	height:350px;
-	background-image: url("/cover.jpg");
+	background-image: url("cover.jpg");
 	background-size: 1400px 350px;
 	background-repeat: no-repeat;
 	position: relative;
 	width: 100%;
+	margin:0px;
 }
 #inside
 {
-	background-image: url("/p.JPG");
+	background-image: url("p.JPG");
 	background-size: 200px 200px;
 	width:200px;
 	height:200px;
@@ -110,7 +111,9 @@ nav li a:hover
 }
 #About
 {
-	background: #008081
+	border-radius: 10px;
+	margin:0px;
+	background: #4682B4;
 }
 #About p
 {
@@ -120,9 +123,11 @@ nav li a:hover
 	color: ;
 	font-size: 25px;
 	line-height:40px;
+	margin:0px;
 }
 #About h1
 {
+	margin:0px;
 	font-weight: lighter;
 	font-family: Segoe UI;
 	color: #d2d2d2;
@@ -132,7 +137,9 @@ nav li a:hover
 
 #Services
 {
-	background: #008081
+	border-radius: 10px;
+	background:#73c2fb;
+	margin:0px;
 }
 
 #Services p
@@ -140,40 +147,123 @@ nav li a:hover
 	padding:40px;
 	padding-top:0px;
 	font-family: Verdana;
-	color: ;
+	color:#373d3f ;
 	font-size: 25px;
 	line-height:40px;
+	margin:0px;
 }
 #Services h1
 {
+	margin:0px;
 	font-weight: lighter;
 	font-family: Segoe UI;
-	color: #d2d2d2;
+	color: #474747;
 	font-size: 60px;
 	text-align: center
 }
-#Contact h1
+#MyWork
 {
+	background:#1c2833;
+	padding:20px; 
+}
+#MyWork h1
+{
+	margin:10px;
 	font-weight: lighter;
 	font-family: Segoe UI;
 	color: #d2d2d2;
 	font-size: 60px;
-	text-align: center
+	text-align: center;
+}
+#Contact h1
+{
+	margin:0px;
+	font-weight: lighter;
+	font-family: Segoe UI;
+	color: #d2d2d2;
+	font-size: 60px;
+	text-align: center;
 }
 
 #Contact
 {
-	background: #008081;
+	border-radius: 10px;
+	margin:0px;
+	background: #34495e;
 }
 
+#Contact h2
+
+{
+
+	margin:0px;
+padding-bottom:20px;
+}
+#Contact h3
+{
+	font-family: Segoe UI;
+	margin:0px;
+	margin-bottom:30px;
+	padding-left:100px;
+	font-size: 35px;
+	color: #b8b8b8;
+	font-weight: lighter;
+}
+legend
+{
+	font-family: Segoe UI;
+    color: #dadedf;
+    font-size: 20px;
+}
+fieldset
+{
+	border:#b8b8b8 solid 2px;
+	padding:20px;
+}
+label
+{
+	font-family: Segoe UI;
+    color: #dadedf;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: normal;
+}
+input[type=text]
+{
+	margin-left:60px;
+	padding-right: 30px;
+}
+input[type=email]
+{
+	margin-left: 66px;
+	padding-right: 30px;
+}
+input[type=tel]
+{
+	margin-left: 20px;
+	padding-right: 30px;
+}
+input[type=submit]
+{
+	float:right;
+	margin-right: 7px;
+	padding: 5px 20px;
+	border-radius: 4px;
+}
 footer
 {
-	background:#008081;
+	border-radius: 10px;
+	margin:0px;
+	background:;
 	font-weight: lighter;
 	font-family: Segoe UI;
-	color: #d2d2d2;
+	color: #474747;
 	font-size: 40px;
 	text-align: center
+}
+footer p
+{
+	margin:0px;
 }
 #cdetails
 {
@@ -187,15 +277,62 @@ footer
 	padding-right: 30px;
 	margin-right: 300px;
 }
+h4
+{
+	float:right;
+	padding-right: 150px;
+	font-family: Segoe UI;
+    color: #dadedf;
+    font-size: 20px;
+    font-weight: normal;
+}
 #bfb
 {
+	background: #1d2129;
+	background-image:url(fb.png);
+	background-repeat: no-repeat;
+	background-size: 27px;
+	border:#fff solid 2px;
 	padding-left: 30px;
 	margin-bottom: 10px;
+	margin-left: 10px;
+	padding:5px 20px;
+	padding-left: 35px;
+	font-family: Segoe UI;
+	color:#e9ebee;
+	font-weight: bold;
 }
 #bli
-{
+{	
+	background: #1d2129;
+	background-image:url(ln.png);
+	background-repeat: no-repeat;
+	background-size: 26px;
+	border:#fff solid 2px;
 	padding-left: 30px;
 	padding-right: 14px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding:5px 26px;
+	padding-left: 34px;
+	color:#e9ebee;
+	font-weight: bold;
+}
+#bgit
+{	
+	background: #1d2129;
+	background-image:url(git.png);
+	background-repeat: no-repeat;
+	background-size: 26px;
+	border:#fff solid 2px;
+	padding-left: 30px;
+	padding-right: 22px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	padding:5px 36px;
+	padding-left: 34px;
+	color:#e9ebee;
+	font-weight: bold;
 }
 .clr
 {
