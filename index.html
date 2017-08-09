@@ -1,86 +1,149 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Sarthak's Portfolio</title>
-		<link rel="stylesheet" href="Sarthak.css">
-	</head>
-	<body>
-		<header>
-		<h1>PORTFOLIO</h1>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="#Cover">Home</a></li>
-				<li><a href="#About">About</a></li>
-				<li><a href="#MyWork">My Work</a></li>
-				<li><a href="#Services">Skills</a></li>
-				<li><a href="#Contact">Contact</a></li>
-			</ul>
-		</nav>
-		<div id="container">
-			<div id="cover" name="Cover">
-			<h1>Sarthak Chhabra</h1>
-			<div id="inside"></div>
-			</div>
-			<div id="About" name="About">
-			<h1>About Me</h1>
-			<p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture. 
-            <br><br>Languages and Frameworks:
-            Javascript, C#m HTML5, CSS3, jQuery, Bootstrap3</p>
-			</div>
-			<div id="Services" name="Services">
-			<h1>Skills</h1>
-			<p>1> Front-End WebDesign<br>
-			   2> UX/UI Design<br>
-			   3> Back-End Development<br>
-			   4> Testing<br>
-			  </p>
-			</div>
-			<div id="MyWork" name="My Work">
-			<h1>My Recent Work</h1>
-			<a href="https://itssarthak.github.io" target="_blank">
-			<img src="Port.png" alt="Portfolio" width="720" height="480"></a>
-			</div>
-			<div id="Contact" name= "Contact">
-			<h1>Contact</h1>
-			<h3>Please Fill the form</h3>
-			<form id="cdetails">
-				<fieldset>
-					<legend>Your Contact Details</legend>
-					<label>Name</label>
-					<input type="text" name="name" required>
-					<br><br>
+<head>
+	<title>PortFolio</title>
+	<link rel= stylesheet href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel= stylesheet href="style.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sarthak's PortFolio</a>
+    </div>
 
-					<label>Email</label>
-					<input type="email" name="email" required>
-					<br><br>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#Home">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Work">My Work</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ <div class=row>
+<div id="Home" class="jumbotron ">
+    <div class="col-md-7 col-md-offset-1">
+      <h1 class="js-odoo">Sarthak Chhabra</h1>
+    </div>
+  </div>
+</div>
 
-					<label>Phone No.</label>
-					<input type="tel" name="email" required>
-					<br><br>
-					<input type="submit" >
-				</fieldset>
-						</form>
+<div id=About class="jumbotron">
+<h1>About Me</h1>
+<p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.
 
-			<form id="social">
-			<div>
-			<h4>Follow me on:</h4>
-			</div>
-			<button id="bfb" type="submit" formaction="http://www.facebook.com/sarthak2211"
-			  formtarget=_blank>facebook</button><br>
-			<button id="bli" type="submit" formaction="https://www.linkedin.com/in/sarthak-chhabra/"
-			  formtarget=_blank>linkedin</button><br>
-			<button id="bgit" type="submit" formaction="https://github.com/itssarthak"
-			  formtarget=_blank>github</button>
-			</form>
-			  <div class="clr">
-			</div>
-			  <h2></h2>
-			</div>
-				<div class="clr">
-			</div>
-			<footer>
-			<p>Created By : Sarthak Chhabra</p>
-			</footer>
-		</div>
-	</body>
+Languages and Frameworks: Javascript, HTML5, CSS3, jQuery, Bootstrap3 , NodeJS, AngularJS, PHP</p>
+</div>
+
+<div id=Skills class=jumbotron>
+<h1>My Skills</h1>
+<ol>
+  <li>Front-End Web Designing</li>
+  <li>UX - UI Designing</li>
+  <li>Back-End Development</li>
+  <li>Testing</li>
+</ol>
+</div>
+
+<div id=Work class=jumbotron>
+<h1>My Recent Works</h1>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="pass.png">
+      </div>
+
+       <div class="item">
+        <img src="login.png">
+      </div>
+
+      <div class="item">
+        <img src="crud.png">
+      </div>
+    
+      <div class="item">
+      <a href="https://itssarthak.github.io">
+        <img src="port.png">
+        </a>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div id=Contact class=jumbotron>
+  <h1>Contact</h1>
+  <div class=row>
+      <form class="form col-md-5 col-md-offset-1">
+      <div class=row>
+            <h3>Please Fill the form</h3>
+            <br>
+          <label class=col-md-4>Name</label>
+          <input class=col-md-4 type="text" name="name" required>
+          <br><br></div>
+
+      <div class=row id="e">
+          <label class=col-md-4>Email</label>
+          <input class=col-md-4 type="email" name="email" required>
+          <br><br></div>
+
+      <div class=row id="p">
+          <label class=col-md-4>Phone No.</label>
+          <input class=col-md-4 type="tel" name="email" required>
+          <br><br>
+          <input class="btn btn-primary" type="submit">
+            </form></div>
+
+      <form id="social" class="col-md-6 ">
+      <div>
+      <h4>Follow me on:</h4>
+      <br>
+      </div>
+      <button id="bfb" type="submit" formaction="http://www.facebook.com/sarthak2211"
+        formtarget=_blank>facebook</button><br>
+      <button id="bli" type="submit" formaction="https://www.linkedin.com/in/sarthak-chhabra/"
+        formtarget=_blank>linkedin</button><br>
+      <button id="bgit" type="submit" formaction="https://github.com/itssarthak"
+        formtarget=_blank>github</button>
+      </form>
+      </div>
+</div>
+</body>
+</html>
